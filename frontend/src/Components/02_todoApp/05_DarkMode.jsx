@@ -3,7 +3,7 @@ import OrganizerItems from "./02_OrganizerItems.jsx";
 import SearchBox from "../Reusable_Component/01_Search/Search.jsx";
 import styled from "../styles";
 
-class FirstPage extends React.Component {
+class DarkMode extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -50,7 +50,6 @@ class FirstPage extends React.Component {
 
   //adding element inside the todo list
   addItem(e) {
-      //Prevent natural behaviour
     e.preventDefault();
     const addnewItem = this.state.InitialInput;
     if (addnewItem.text !== "") {
@@ -119,7 +118,7 @@ class FirstPage extends React.Component {
     }
     return (
       <div>
-        <div style={styled.rowlist}>
+        <div style={styled.rowlistBlack}>
           <div style={styled.head}>
             <h1 style={styled.h1}>ToDo List</h1>
           </div>
@@ -182,4 +181,4 @@ class FirstPage extends React.Component {
     );
   }
 }
-export default FirstPage;
+export default DarkMode;

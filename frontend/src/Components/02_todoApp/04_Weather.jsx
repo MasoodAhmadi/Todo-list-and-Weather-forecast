@@ -26,6 +26,7 @@ class FirstPage extends React.Component {
     });
   }
 
+  //fetching Api from openweather website and puting them into object and setting only specific state in setState
   getWeather = async () => {
     const response = await fetch(
       "http://api.openweathermap.org/data/2.5/weather?q=tampere&appid=034e4c1a00d9f959337a5f7b1cccd8eb"

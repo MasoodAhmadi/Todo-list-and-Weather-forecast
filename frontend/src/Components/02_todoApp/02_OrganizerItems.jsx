@@ -11,6 +11,9 @@ class OrganizerItems extends React.Component {
       pageSize: 5,
     };
   }
+
+
+  //changing the page with item goes more then 5
   handlePageChange = (page) => {
     this.setState({ currentPage: page });
   };

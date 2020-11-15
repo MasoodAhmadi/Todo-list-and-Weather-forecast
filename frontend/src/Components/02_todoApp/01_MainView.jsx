@@ -1,7 +1,7 @@
 import React from "react";
 import OrganizerItems from "./02_OrganizerItems.jsx";
 import SearchBox from "../Reusable_Component/01_Search/Search.jsx";
-import styled from "../styles3";
+import styled from "../styles";
 
 class FirstPage extends React.Component {
   constructor(props) {
@@ -50,6 +50,7 @@ class FirstPage extends React.Component {
 
   //adding element inside the todo list
   addItem(e) {
+    //Prevent natural behaviour
     e.preventDefault();
     const addnewItem = this.state.InitialInput;
     if (addnewItem.text !== "") {

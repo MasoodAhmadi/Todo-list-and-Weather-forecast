@@ -2,7 +2,7 @@ import React from "react";
 import DeleteOutlineIcon from "@material-ui/icons/DeleteOutline";
 import styled from "../styles";
 
-class TodoItem extends React.Component {
+class ItemList extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -38,4 +38,4 @@ class TodoItem extends React.Component {
   }
 }
 
-export default TodoItem;
+export default ItemList;
