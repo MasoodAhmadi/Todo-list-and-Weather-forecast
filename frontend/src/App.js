@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.scss";
 
-import Home from "./Home/Homepage";
+import Home from "./Home/Homepage.jsx";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Home />
     </div>
   );

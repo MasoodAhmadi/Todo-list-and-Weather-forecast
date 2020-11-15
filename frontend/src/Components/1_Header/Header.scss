@@ -15,7 +15,7 @@ nav {
 }
 
 .bg-dark {
-  background-color: #262626 !important;
+  background-color: #e28120 !important;
 }
 
 .bg-body {
@@ -25,14 +25,26 @@ nav {
 .bg-white {
   background-color: #fff !important;
 }
+.btn2 {
+  color: white;
+  position: absolute;
+  margin-left:-100px;
+  justify-content: space-between;
+  margin-top: 7px;
+  background-color: #e28120;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
 .logo {
   .btn1 {
     color: white;
     position: absolute;
     margin-left: 45px;
     padding: 0px;
-    margin-top: 7px;
-    background-color: #262626;
+    justify-content: space-between;
+    margin-top: 13px;
+    background-color: #e28120;
     border: none;
     text-decoration: none;
     display: inline-block;
@@ -40,7 +52,6 @@ nav {
     cursor: pointer;
     font-family: "Times New Roman", Times, serif;
   }
-
   .img1 {
     width: 30;
     height: 40px;
@@ -55,7 +66,7 @@ nav {
     margin: 0 15px;
     justify-content: space-between;
     font-size: 1em;
-    background-color: #262626;
+    background-color: #e28120;
     color: #ffff;
     border: none;
   }

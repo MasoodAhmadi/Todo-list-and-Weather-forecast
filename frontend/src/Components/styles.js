@@ -9,7 +9,7 @@ export default {
     backgroundImage: " radial-gradient(#1a1919 4.2%, transparent 0)",
     backgroundSize: "40px 40px",
     width: "33.33%",
-    backgroundColor: "#41403a",
+    backgroundColor: "#f8e4b7",
     boxShadow: "4px 3px 7px 2px #00000040",
     padding: "15px",
     borderRadius: "20px",
@@ -25,22 +25,26 @@ export default {
   Inp: {
     border: "0",
     padding: "0px 50px",
-    width: "200px",
+    width: "335px",
     height: " 50px",
     fontSize: "18px",
-    borderRadius: "0px",
+    borderRadius: "10px",
     margin: "20px",
     position: "none",
+
+
   },
   btn: {
-    height: "50px",
-    width: "70px",
+    height: "40px",
+    width: "335px",
     border: "0",
+    marginTop: "-20px",
     borderRadius: "5px",
     backgroundColor: "#e28120",
     fontWeight: "bolder",
     color: "#fff",
     cursor: "pointer",
+    marginLeft: "20px",
   },
   head: {
     display: "flex",
@@ -52,9 +56,9 @@ export default {
     marginTop: "30px",
     textAlign: "center",
     backgroundColor: "#e28120",
-    borderRadius: "20% 15% 20% 5%/5% 20% 15%",
+    borderRadius: "20% 15% 20% 20%/ 20% 20% 20%",
     padding: "0.2rem 1.2rem",
-    color: "#000000",
+    color: "white",
   },
   paginat: {
     fontFamily: "sans-serif",
@@ -74,10 +78,11 @@ export default {
   },
   list: {
     color: "black",
-    width: "350px",
-    backgroundColor: "rgb(180, 183, 185)",
+    width: "340px",
+    backgroundColor: "#f4f4f2",
     height: "40px",
-    margin: "20px auto",
+    margin: "30px auto",
+    marginLeft: "20px",
     borderRadius: "5px",
     p: {
       padding: "10px",
@@ -92,14 +97,15 @@ export default {
     },
   },
   del: { position: "absolute", right: "10px", cursor: "pointer" },
-  /*  nav: {
+  nav: {
     position: "relative",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    paddingTop: "0.5rem",
-    padding: " 10px 10px 0",
-  }, */
+    paddingTop: "1.5rem",
+    padding: " 30px ",
+    marginTop: "-60px",
+  },
   bgdark: {
     backgroundColor: " #262626 !important",
   },
@@ -158,11 +164,9 @@ export default {
   },
   summaryText: {
     margin: "0",
-    marginLeft: "16px",
-    width: "660px",
-
+    marginLeft: "10px",
     textTransform: "uppercase",
-    textSize: "1px",
+    width: "500px",
   },
   precipitation: {
     marginTop: "16px",
